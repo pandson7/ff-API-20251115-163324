@@ -4,6 +4,9 @@ node_modules/
 # CDK Output
 cdk.out/
 
+# Allow Lambda source files
+!cdk-app/src/*.js
+
 # Logs
 *.log
 npm-debug.log*
